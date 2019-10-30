@@ -1,0 +1,10 @@
+stern-split-gopher
+------------------
+
+splits stern logs by pod name
+
+usage
+-----
+
+stern [...] -o json [...] | stern-split-gopher
+stern [...] -o json [...] | pv | stern-split-gopher
